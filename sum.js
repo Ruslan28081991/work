@@ -1,7 +1,7 @@
 const compact = (arr) => {
     const result = [];
     for (let index = 0; index < arr.length; index++) {
-        if (arr.index) {
+        if (arr[index]) {
             result.push(arr[index]);
         }
     }
