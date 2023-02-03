@@ -1,11 +1,12 @@
-const { compact } = require("./sum");
+const { compact, concat } = require("./sum");
 
-const data = [0, 1, false, 2, '', 3];
-const resultCompact = [1, 2, 3];
+
 
 describe("Compact", () => {
     test('Should be removed all false values', () => {
-        expect(compact(data)).toEqual(resultCompact)
+        const data = [0, 1, false, 2, '', 3];
+        const result = [1, 2, 3];
+        expect(compact(data)).toEqual(result);
     })
 });
 
