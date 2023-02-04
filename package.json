@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "work",
+  "description": "",
+  "version": "1.0.0",
+  "main": "sum.js",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruslan28081991/work.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruslan28081991/work/issues"
+  },
+  "homepage": "https://github.com/Ruslan28081991/work#readme"
+}
